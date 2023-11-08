@@ -37,5 +37,11 @@ layout: table_wrappers
   {% if site.mermaid %}
     {% include components/mermaid.html %}
   {% endif %}
+  {% assign math = page.math | default: layout.math | default: site.math %}
+
+{% case math %}
+  {% when "mathjax" %}
+    {% include mathjax.html %}
+{% endcase %}
 </body>
 </html>
