@@ -34,4 +34,17 @@ DFS, BFS, Iterative Deepening --> go up to depth with DFS, then BFS, then forget
 A*, admissible heuristics are no less than the cost to reach the goal from a particular state. Good to steer towards a goal state if there's some knowledge about the topology of the problem. 
 
 ### Markov Decision Processes: <br>
+Here use bellman optimality to iterate a value function until it converges. The value function is:  
+$$V_\pi(s_t) = max \left(R(s_t,a_t) + \gamma \sum_{s_{t+1}\in S}P(s_t,a_t,s_{t+1})V(s_{t+1})\right) $$  
+The summation is an expectation from the different possibilities of a given action and their respective resulting values.
+
+<p>Policy and Value iteration:</p>
+<video controls="" width="50%">
+    <source src="../../assets/videos/policy.mp4" type="video/mp4"/>
+</video>
+<video controls="" width="50%">
+    <source src="../../assets/videos/value.mp4" type="video/mp4"/>
+</video>
+<p>
+
 
