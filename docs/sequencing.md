@@ -47,4 +47,11 @@ The summation is an expectation from the different possibilities of a given acti
 </video>
 <p>
 
+### Getting Started with PyBullet: <br>
+Pybullet hello world, make a simple URDF cnc machine, get it to move in a circle with positional commands.
+More experiments will follow here:
+
+<video controls="" width="50%">
+    <source src="../../assets/videos/pb_test.mp4" type="video/mp4"/>
+</video>
 
