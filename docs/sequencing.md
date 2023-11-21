@@ -39,10 +39,10 @@ $$V_\pi(s_t) = max \left(R(s_t,a_t) + \gamma \sum_{s_{t+1}\in S}P(s_t,a_t,s_{t+1
 The summation is an expectation from the different possibilities of a given action and their respective resulting values.
 
 <p>Policy and Value iteration:</p>
-<video controls="" width="50%">
+<video controls="" width="75%">
     <source src="../../assets/videos/policy.mp4" type="video/mp4"/>
 </video>
-<video controls="" width="50%">
+<video controls="" width="75%">
     <source src="../../assets/videos/value.mp4" type="video/mp4"/>
 </video>
 
@@ -50,7 +50,7 @@ The summation is an expectation from the different possibilities of a given acti
 Pybullet hello world, make a simple URDF cnc machine, get it to move in a circle with positional commands.
 More experiments will follow here:<br>
 
-<video controls="" width="50%">
+<video controls="" width="75%">
     <source src="../../assets/videos/pb_test.mp4" type="video/mp4"/>
 </video>
 
