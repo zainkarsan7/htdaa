@@ -54,3 +54,11 @@ More experiments will follow here:<br>
     <source src="../../assets/videos/pb_test.mp4" type="video/mp4"/>
 </video>
 
+## Autonomous industrial equipment:
+
+Forklift robot, autonomous material handling $$\rightarrow$$ Frazzoli @ ETH <br>
+
+### Critical Radius for Random Geometric Graphs
+$$ r_n = \gamma (\dfrac{\log(n)}{n})^(\dfrac{1}{d})$$
+
+### 
