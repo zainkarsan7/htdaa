@@ -59,6 +59,13 @@ More experiments will follow here:<br>
 Forklift robot, autonomous material handling $$\rightarrow$$ Frazzoli @ ETH <br>
 
 ### Critical Radius for Random Geometric Graphs
-$$ r_n = \gamma (\dfrac{\log(n)}{n})^(\dfrac{1}{d})$$
+$$ r_n = \gamma (\dfrac{\log(n)}{n})^{(\dfrac{1}{d})}$$
 
-### 
+## Multi Agent Planning:
+Many agents, reactive and non-reactive for which the optimal strategy is a nash equilibrium <br>
+Combinatorial explosion in dynamic games, $$\mathcal{O}(m^{\mathcal{A}})$$<br>
+Use Fast Marching Trees Algorithm to deal with high dimensionality of search space $$\mathcal{O}(n^{-\dfrac{1}{d}+\rho})$$<br>
+Or use graph factorization, by using subgames, hence building a simpler graph. 
+
+
+
