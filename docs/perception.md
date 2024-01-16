@@ -40,3 +40,19 @@ Representing grasp poses as quaternions, category level pose estimation, keypoin
 <br>
 <br>
 Put some experiments in deep percetion and geometric perception here:
+
+### SfM Tools:
+
+COLMAP: <br>
+* Start with feature extraction
+* Match Features across images
+* Reconstruction
+<br>
+
+Find the prebuilt app <a href="https://github.com/colmap/colmap/releases/tag/3.5"> here </a><br>
+and some documentation <a href="https://colmap.github.io/tutorial.html#structure-from-motion"> here </a><br>
+
+
+
+
+

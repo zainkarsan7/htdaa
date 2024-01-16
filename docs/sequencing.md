@@ -65,7 +65,12 @@ $$ r_n = \gamma (\dfrac{\log(n)}{n})^{(\dfrac{1}{d})}$$
 Many agents, reactive and non-reactive for which the optimal strategy is a nash equilibrium <br>
 Combinatorial explosion in dynamic games, $$\mathcal{O}(m^{\mathcal{A}})$$<br>
 Use Fast Marching Trees Algorithm to deal with high dimensionality of search space $$\mathcal{O}(n^{-\dfrac{1}{d}+\rho})$$<br>
-Or use graph factorization, by using subgames, hence building a simpler graph. 
+Or use graph factorization, by using subgames, hence building a simpler graph. <br>
+
+Here's a multi-agent simulation using RRT* for path planning, and some right of way behaviour to plan collision free paths for autonomous differential drive robots:<br>
+<video controls="" width="75%">
+    <source src="../../assets/videos/multi_agent.mp4" type="video/mp4"/>
+</video>
 
 
 
