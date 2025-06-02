@@ -4,7 +4,7 @@ title: Another
 nav_order: 4
 ---
 
-# Estimating Recoverability:
+# Now ADD EVERYTHING EVER DONE:
 
 This part deals with how to determine the "recoverability" of a building and its components. Lots of different names in literature, circularity index, recoverability factor. These are important in formulating a benchmark to compare against. Some are enumerated here but there's lots more:
 ### Akanbi Recoverability:
