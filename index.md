@@ -8,30 +8,21 @@ nav_exclude: True
 
 ## How to Disassemble (almost) Anything
 
-This is my research repo, compiles different learnings in robotics with the goal of automating disassembly for circular construction and architecture.
+<video autoplay muted loop playsinline controls="" width="100%">
+    <source src="../../assets/videos/b_video_out.mp4" type="video/mp4"/>
+</video>
 
->A Klee painting named Angelus Novus shows an angel looking as though he is about to move away from something he is fixedly contemplating. His eyes are staring, his mouth is open, his wings are spread. This is how one pictures the angel of history. His face is turned toward the past. Where we perceive a chain of events, he sees one single catastrophe which keeps piling wreckage upon wreckage and hurls it in front of his feet. The angel would like to stay, awaken the dead, and make whole what has been smashed. But a storm is blowing from Paradise; it has got caught in his wings with such violence that the angel can no longer close them. The storm irresistibly propels him into the future to which his back is turned, while the pile of debris before him grows skyward. This storm is what we call progress.
+This is my research repo, compiles different learnings in robotics with the goal of automating disassembly for circular construction and architecture. After a 
 
-* one thing
-* another thing
-
-1. first thing
-2. second thing
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| Work Package | Description       | Progress |
+|:-------------|:------------------|:---------|
+| State of Practice| Understand current challenges in Switzerland | conducted a few interviews, more coming     |
+| Sequencing| Modelling & Solving Disassembly Problems   | Implemented graph based methods     |
+| Perception| Leveraging inferences from Computer Vision and DL| Amassed a toolkit of strategies      |
+| Hardware Systems| Implementing and Controlling a Multi Robotic System | Building     |
 
 
-$$ x = \ln \left(\frac{5}{y}\right)$$
 
-$$ \begin{bmatrix} 1&0&0 \\ 0&1&0 \\0&0&1
-\end{bmatrix}$$
-
-$$ \dfrac{\partial T}{\partial t} = \dfrac{T_{final} - T_0}{\Delta t}$$
 
 
 

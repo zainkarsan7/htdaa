@@ -6,53 +6,54 @@ nav_order: 2
 
 # Perception
 
-Two kinds:
-* Geometric Perception
-* Deep Perception
+Strategies for finding corners, joints, connections using computer vision or deep learning. Simplest is to use a custom trained yolo model on a prompt like 'weld' and extract geometric information from the prediction. 
+<div class="d-flex">
+  <div style="flex: 0 0 67%;" class="mr-4">
+    <video autoplay muted loop playsinline controls="" width="100%">
+    <source src="../../assets/videos/yolo_snip_out.mp4" type="video/mp4"/>
+    </video>
+  </div>
+   <div style="flex: 0 0 33%;">
+      The quality of the prediction depends on the breadth of the dataset, and a collection of hyperparameters, with overtraining or lack of generalizeability being symptoms of poorly chosen hyperparameters. 
+  </div>
+</div>
 
+<img src="{{ '/assets/images/hyperparam.png' | relative_url }}">
 <br>
 
-### Geometric Perception
+With a sufficient weld detection model running, extracting a toolpath for linear beads is feasible with segmentation and skeletonization, offered by Meta's SAM and scikitlearn. 
 
-Harris corner detection, SIFT, Hough Transform, Blob Detectors<br>
+<img src="{{ '/assets/images/segtocut.png' | relative_url }}">
 
-Look at an image and identify geometric primitives, corners, edges (global and local), map similar points, track objects, iterative closest point <br>
+This prediction in image space correlates to poses in 3D space, using an Azure Kinect and its SDK to map between. 
 
-### Deep Perception
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/flock_out.mp4" type="video/mp4"/>
+</video>
 
-Rapidly growing, new papers every week making things faster, more reliable/robust<br>
+For simple cut geometries, and reasonable poses for the robot, naive planning from the controller IK is sufficient, but for welds around corners or flanges, sampling or gradient-based planners are necessary.
 
-Need two things: Massive Compute Power (with GPUs) and carefully curated datasets <br>
+<div class="d-flex">
+  <div class="flex: 0 0 67%; mr-8">
+    <img src="{{ '/assets/images/pcd_post.png' | relative_url }}">
+  </div>
+   <div style="flex: 0 0 33%;">
+    <p>
+      Here, point cloud processing beginning with DBSCAN clustering, noise removal, and multi-planar ransac to extract cut lines. 
+    </p>
+  </div>
+</div>
 
-OR<br>
-
-Use pretrained models, adjust the output layer, train on your own dataset, smaller and tailored to application.
-Or just use new models straight out of the box like Segment Anything, or CLIP which are trained on super large datasets $$10^6 - 10^9$$ labelled samples. <br>
-
-Mask R-CNN for Instance segmentation, Semantic segmentation, Keypoint Identification
-Deep learning methods implicitly describe uncertainty, by giving probabilities of outcomes. Successful architectures are simple. 
-Dex-Net 2.0, kPAM-SC, Space Api, more models out there relevant to point cloud segmentation, shape completion, instance segmentation etc. 
-
-### Robotics and Disassembly Domain
-
-Representing grasp poses as quaternions, category level pose estimation, keypoints based on part categories, fasteners, flanges, clips, building components $$\rightarrow$$ category level disassembly actions
-
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/beam_cut_out.mp4" type="video/mp4"/>
+</video>
 <br>
+Shown here a gui demonstrating a ransac-esque cuboid strategy on a point cloud stream. The strategy is to sample several points, compute an oriented bounding box, then compare the box orientation with the points that reside inside it.  
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/cuboid_out.mp4" type="video/mp4"/>
+</video>
 <br>
-Put some experiments in deep percetion and geometric perception here:
-
-### SfM Tools:
-
-COLMAP: <br>
-* Start with feature extraction
-* Match Features across images
-* Reconstruction
-<br>
-
-Find the prebuilt app <a href="https://github.com/colmap/colmap/releases/tag/3.5"> here </a><br>
-and some documentation <a href="https://colmap.github.io/tutorial.html#structure-from-motion"> here </a><br>
-
-
-
-
-
+Many other strategies, shown below, finding corners with a Harris Detector, Hough Transforms and their intersections, SAM and intersecting regions, and their mapping to 3D in a pybullet environment. 
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/cv_gui_out.mp4" type="video/mp4"/>
+</video>
