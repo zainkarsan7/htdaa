@@ -29,7 +29,7 @@ The workflow follows scan plan act, with assessment of the action as it affects 
 </div>
 The gui supporting the perception pipeline is also used for path planning. Here regardless of strategy, the section cut is treated as a sequence of poses with an ambiguous orientation. Multiple samples are taken for numerical IK, levenberg marquardt is used, weighting heavily on the elbow joints to prevent orientation flips. A graph of poses and way points are constructed with edges constructed between poses belonging to subsequent waypoints weighted by the norm of the change in pose. 
 <video autoplay muted loop playsinline controls="" width="100%">
-<source src="../../assets/videos/path_planning_demo.mp4" type="video/mp4"/>
+<source src="../../assets/videos/path_out.mp4" type="video/mp4"/>
 </video>
 
 <br>
