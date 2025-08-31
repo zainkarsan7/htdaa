@@ -57,3 +57,9 @@ Many other strategies, shown below, finding corners with a Harris Detector, Houg
 <video autoplay muted loop playsinline controls="" width="100%">
 <source src="../../assets/videos/cv_gui_out.mp4" type="video/mp4"/>
 </video>
+This gui is developed to serve as an HMI, prototyping and debugging tool. Shown here is a scanning job, initiated from an arbitrary pose with a set of goal poses that orient the camera to survey the surrounding workspace. Realtime vision and inference can be made, but observations aren't saved except at goal poses. Observations can be serialized to json, along with the scanning job toolpath. Jobs can be saved, loaded, simulated and executed. 
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/gui_demo_out.mp4" type="video/mp4"/>
+</video>
+
+

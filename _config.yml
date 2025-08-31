@@ -103,6 +103,8 @@ heading_anchors: true
 aux_links:
   "HTMSTM(a)A":
     - "https://fab.cba.mit.edu/classes/865.21/people/zain/"
+  "Projects":
+    - "https://zainkarsan7.github.io/projects"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
