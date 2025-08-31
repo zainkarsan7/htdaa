@@ -42,7 +42,9 @@ The gui supporting the perception pipeline is also used for path planning. Here 
   </div>
 </div>
 <br>
-
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/cherry_out.mp4" type="video/mp4"/>
+</video>
 
 ### Welding for Repair 
 <br>

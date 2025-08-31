@@ -9,10 +9,10 @@ nav_exclude: True
 ## How to Disassemble (almost) Anything
 
 <video autoplay muted loop playsinline controls="" width="100%">
-    <source src="../../assets/videos/b_video_out.mp4" type="video/mp4"/>
+    <source src="../../assets/videos/b_video_out2.mp4" type="video/mp4"/>
 </video>
 
-This is my research repo, compiles different learnings in robotics with the goal of automating disassembly for circular construction and architecture. After a 
+This is my research repo, compiles different learnings in robotics with the goal of automating disassembly for circular construction and architecture. 
 
 | Work Package | Description       | Progress |
 |:-------------|:------------------|:---------|
