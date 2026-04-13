@@ -16,11 +16,15 @@ Sort of Walking LIP
 <source src="../../assets/videos/a2_p1.mp4" type="video/mp4"/>
 </video>
 
-Sort of Walking
+More Like Walking VHIP
 <video autoplay muted loop playsinline controls="" width="100%">
-<source src="../../assets/videos/a2_p1.mp4" type="video/mp4"/>
+<source src="../../assets/videos/a2_p2_walk.mp4" type="video/mp4"/>
 </video>
 
+Jumping VHIP
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/a2_p2_jump.mp4" type="video/mp4"/>
+</video>
 
 Quadruped on terrain
 <video autoplay muted loop playsinline controls="" width="100%">
