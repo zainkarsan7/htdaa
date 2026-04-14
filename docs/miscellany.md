@@ -13,7 +13,7 @@ Biped Warmup
 
 P1: Sort of Walking LIP
 <video autoplay muted loop playsinline controls="" width="100%">
-<source src="../../assets/videos/a2_p1.mp4" type="video/mp4"/>
+<source src="../../assets/videos/a2_p1_walk.mp4" type="video/mp4"/>
 </video>
 
 P1: Simulated not walking
