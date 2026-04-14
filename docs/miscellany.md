@@ -15,6 +15,7 @@ P1: Sort of Walking LIP
 <video autoplay muted loop playsinline controls="" width="100%">
 <source src="../../assets/videos/a2_p1.mp4" type="video/mp4"/>
 </video>
+
 P1: Simulated not walking
 <video autoplay muted loop playsinline controls="" width="100%">
 <source src="../../assets/videos/a2_p1_walk_sim.mp4" type="video/mp4"/>
@@ -24,6 +25,7 @@ P2: More Like Walking VHIP
 <video autoplay muted loop playsinline controls="" width="100%">
 <source src="../../assets/videos/a2_p2_walk.mp4" type="video/mp4"/>
 </video>
+
 P2: simulated moon walkingVHIP
 <video autoplay muted loop playsinline controls="" width="100%">
 <source src="../../assets/videos/a2_p2_walk_sim.mp4" type="video/mp4"/>
