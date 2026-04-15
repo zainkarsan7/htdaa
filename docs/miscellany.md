@@ -41,6 +41,27 @@ P2: Simulated almost Jumping VHIP
 <source src="../../assets/videos/a2_p2_jump_sim.mp4" type="video/mp4"/>
 </video>
 
+P3: Optimized walking SRB
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/a2_p3_walk_to.mp4" type="video/mp4"/>
+</video>
+
+P3: Simulated walking SRB
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/a2_p3_walk_sim.mp4" type="video/mp4"/>
+</video>
+
+P3: Optimized jumping SRB
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/a2_p3_jump_to.mp4" type="video/mp4"/>
+</video>
+
+P3: Simulated jumping SRB
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/a2_p3_jump_sim.mp4" type="video/mp4"/>
+</video>
+
+
 Quadruped on terrain
 <video autoplay muted loop playsinline controls="" width="100%">
 <source src="../../assets/videos/ex4_out.mp4" type="video/mp4"/>
