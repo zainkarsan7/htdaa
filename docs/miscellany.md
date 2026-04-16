@@ -72,6 +72,37 @@ P3B: Simulated walking SRB TOWR
 <source src="../../assets/videos/a2_p3b_walk_sim.mp4" type="video/mp4"/>
 </video>
 
+P4: Optimized walking centroidal
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/a2_p4_walk_to.mp4" type="video/mp4"/>
+</video>
+
+P4: Simulated walking centroidal
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/a2_p4_walk_sim.mp4" type="video/mp4"/>
+</video>
+
+P4: Optimized jumping centroidal
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/a2_p4_jump_to.mp4" type="video/mp4"/>
+</video>
+
+P4: Simulated jumping centroidal 
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/a2_p4_jump_sim.mp4" type="video/mp4"/>
+</video>
+
+P4B: Optimized backflip centroidal
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/a2_p4b_to.mp4" type="video/mp4"/>
+</video>
+
+P4B: Simulated backfail centroidal
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/a2_p4b_sim.mp4" type="video/mp4"/>
+</video>
+
+
 Quadruped on terrain
 <video autoplay muted loop playsinline controls="" width="100%">
 <source src="../../assets/videos/ex4_out.mp4" type="video/mp4"/>
