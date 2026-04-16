@@ -56,11 +56,21 @@ P3: Optimized jumping SRB
 <source src="../../assets/videos/a2_p3_jump_to.mp4" type="video/mp4"/>
 </video>
 
-P3: Simulated jumping SRB
+P3: Simulated jumping SRB 
 <video autoplay muted loop playsinline controls="" width="100%">
 <source src="../../assets/videos/a2_p3_jump_sim.mp4" type="video/mp4"/>
 </video>
 
+
+P3B: Optimized walking SRB TOWR
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/a2_p3b_walk_to.mp4" type="video/mp4"/>
+</video>
+
+P3B: Simulated walking SRB TOWR
+<video autoplay muted loop playsinline controls="" width="100%">
+<source src="../../assets/videos/a2_p3b_walk_sim.mp4" type="video/mp4"/>
+</video>
 
 Quadruped on terrain
 <video autoplay muted loop playsinline controls="" width="100%">
